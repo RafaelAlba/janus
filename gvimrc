@@ -88,7 +88,8 @@ function s:CdIfDirectory(directory)
   if directory
     NERDTree
     wincmd p
-    bd
+    "bd
+    q
   endif
 
   if explicitDirectory
