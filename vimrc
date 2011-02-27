@@ -15,6 +15,9 @@ set softtabstop=2
 set expandtab
 set list listchars=tab:\ \ ,trail:·
 
+" yanks copy to OS clipboard
+set clipboard=unnamed
+
 " Searching
 set hlsearch
 set incsearch
