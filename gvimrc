@@ -60,8 +60,8 @@ function StartTerm()
 endfunction
 
 " Project Tree
-autocmd VimEnter * call s:CdIfDirectory(expand("<amatch>"))
-autocmd FocusGained * call s:UpdateNERDTree()
+"autocmd VimEnter * call s:CdIfDirectory(expand("<amatch>"))
+"autocmd FocusGained * call s:UpdateNERDTree()
 
 " If the parameter is a directory, cd into it
 function s:CdIfDirectory(directory)
@@ -182,7 +182,7 @@ RUBY
 endfunction
 
 " Define the NERDTree-aware aliases
-call s:DefineCommand("cd", "ChangeDirectory")
+"call s:DefineCommand("cd", "ChangeDirectory")
 call s:DefineCommand("touch", "Touch")
 call s:DefineCommand("rm", "Remove")
 call s:DefineCommand("e", "Edit")
